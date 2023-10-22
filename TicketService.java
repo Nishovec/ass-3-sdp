@@ -1,3 +1,3 @@
 public interface TicketService {
-    boolean
+    boolean purchaseTicket(String eventName, int quantity);
 }
